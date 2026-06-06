@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+int n1, n2, sum=0;
+
+printf("Enter Starting Number:"); printf("Enter Ending Number:");
+
+scanf("%d", &n1);
+
+scanf("%d", &n2);
+
+printf("Sum of Digits of Series is:");
+
+for(int i=nl;i<=n2;i++)
+
+{
+
+sum=sum+i;
+
+}
+
+printf("%d", sum);
+
+}
