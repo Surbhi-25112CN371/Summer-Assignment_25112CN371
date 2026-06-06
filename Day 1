@@ -1,3 +1,5 @@
+//Program1
+
 #include<stdio.h>
 
 int main()
@@ -25,3 +27,60 @@ sum=sum+i;
 printf("%d", sum);
 
 }
+
+//Program2
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int num;
+
+printf("Who's Table?:");
+
+scanf("\n %d",&num);
+
+for(int i=1;i<=10;i++)
+
+{
+
+printf("\n %d%d%d", num,i,num*i);
+
+}
+
+return 0;
+
+}
+
+//Program3
+#include<stdio.h>
+
+int main()
+
+{
+
+int num; int fact;
+
+fact=1;
+
+printf("Enter Number for Factorial:");
+
+scanf("%d", &num);
+
+for(int i=1;i<=num;i++)
+
+{
+
+fact=fact*i;
+
+}
+printf("Factorial is:%d", fact);
+}
+
+//Program4
+
+
+
+
